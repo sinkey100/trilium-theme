@@ -1,0 +1,143 @@
+.quick-search {
+    display: none;
+}
+
+.cm-s-default .cm-variable-2 {
+    color: #000;
+}
+
+:root {
+    --theme-style: light;
+    --main-font-family: Arial, sans-serif;
+    --main-font-size: normal;
+    --tree-font-family: Arial, sans-serif;
+    --tree-font-size: 88%;
+    --detail-font-family: Arial, sans-serif;
+    --detail-font-size: normal;
+    --monospace-font-family: Monospace;
+    --monospace-font-size: normal;
+    --main-background-color: #fefeff;
+    --main-text-color: #333;
+    --main-border-color: #AFB8C6;
+    --left-pane-background-color: #f5f7fe;
+    --more-accented-background-color: #f5f7fe;
+    --main-border-color: #ddd;
+    --button-text-color: #959595;
+    --button-background-color: #fff;
+    --button-disabled-text-color: #86919F;
+    --button-disabled-background-color: #404552;
+    --button-border-color: transparent;
+    --button-border-radius: 2px;
+    --primary-button-background-color: #588afd;
+    --primary-button-text-color: white;
+    --primary-button-border-color: #588afd;
+    --muted-text-color: #86919F;
+    --input-text-color: #333;
+    --input-background-color: #404552;
+    --hover-item-text-color: #333;
+    --hover-item-background-color: #e5ecfe;
+    --active-item-text-color: #333;
+    --active-item-background-color: #e5ecfe;
+    --modal-backdrop-color: black;
+    --launcher-pane-background-color: #588afd;
+    --launcher-pane-text-color: #fff;
+    --active-tab-background-color: #fff;
+    --active-tab-text-color: #333;
+    --inactive-tab-background-color: #f5f7fe;
+    --inactive-tab-text-color: #565f86;
+    --scrollbar-border-color: rgba(175, 184, 198, 0.5);
+    --tooltip-background-color: #fff;
+    --inactive-tab-hover-background-color: #e5e7ef;
+    --active-tab-hover-background-color: #fff;
+    --mermaid-theme: forest;
+    --link-color: #588afd;
+
+}
+
+body .global-menu {
+    width: 100% !important;
+}
+
+body .global-menu-button {
+    background-color:#ffffff00;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(47deg) brightness(105%) contrast(103%);
+
+  
+    background-size: 30px;
+    background-position: 50% 60%;
+}
+body .global-menu-button:hover{
+    filter:none;
+}
+
+#launcher-pane .icon-action:hover {
+    background-color: var(--launcher-pane-background-color) !important;
+}
+
+.ui-fancytree>li>ul {
+    padding-right: 10px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    padding-bottom:5px;
+}
+
+
+.tab-row-widget-container {
+    background: var(--left-pane-background-color);
+}
+
+.tab-row-widget .note-tab .note-tab-wrapper {
+    padding: 0 5px 0 10px !important;
+    height: 30px !important;
+    margin-top: 5px;
+}
+
+.tab-row-widget .note-tab[active] .note-tab-wrapper {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.note-tab.type-code.mime-text-css {
+    max-width: 200px;
+}
+
+.fancytree-node {
+    height: 35px;
+}
+
+.fancytree-custom-icon.bx:after {
+    content: '' !important;
+}
+
+.dropdown-menu {
+    border: 0 !important;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+}
+
+.gutter.gutter-horizontal::after {
+    content: ' ';
+    background: var(--left-pane-background-color);
+    height: 40px;
+    width: 100%;
+    display: block;
+}
+
+.tree-actions {
+    background: var(--left-pane-background-color) !important;
+    border: 0 !important;
+}
+
+button.tree-floating-button {
+    background: var(--left-pane-background-color) !important;
+    color: var(--button-text-color) !important;
+}
+
+button.tree-floating-button:hover {
+    color: var(--launcher-pane-background-color) !important;
+}
+
+.note-list.grid-view .note-book-card:hover{
+}
+.tab-row-widget .note-tab .note-tab-title{
+    font-size:var(--tree-font-size);
+}

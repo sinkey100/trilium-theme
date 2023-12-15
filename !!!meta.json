@@ -1,0 +1,29 @@
+{
+	"formatVersion": 2,
+	"appVersion": "0.60.4",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "GXAaV4o8AKFH",
+			"notePath": [
+				"GXAaV4o8AKFH"
+			],
+			"title": "SinkeyTheme",
+			"notePosition": 10,
+			"prefix": null,
+			"isExpanded": true,
+			"type": "code",
+			"mime": "text/css",
+			"attributes": [
+				{
+					"type": "label",
+					"name": "appTheme",
+					"value": "SinkeyTheme",
+					"isInheritable": false,
+					"position": 10
+				}
+			],
+			"dataFileName": "SinkeyTheme.css"
+		}
+	]
+}
